@@ -1,0 +1,115 @@
+{
+    "title": "World knowledges",
+    "quiz": [
+        {
+            "question": "What is the capital of France?",
+            "options": [
+                "London",
+                "Berlin",
+                "Paris",
+                "Madrid",
+                "Rome"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "options": [
+                "Venus",
+                "Jupiter",
+                "Mars",
+                "Mercury",
+                "Saturn"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": [
+                "Ag",
+                "Au",
+                "Cu",
+                "Fe",
+                "Hg"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": [
+                "Pablo Picasso",
+                "Claude Monet",
+                "Vincent van Gogh",
+                "Leonardo da Vinci",
+                "Michelangelo"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Arctic Ocean",
+                "Southern Ocean",
+                "Pacific Ocean"
+            ],
+            "answer": 4
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "options": [
+                "China",
+                "India",
+                "South Korea",
+                "Japan",
+                "Thailand"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "options": [
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Brisbane",
+                "Perth"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Who wrote the play Romeo and Juliet?",
+            "options": [
+                "William Shakespeare",
+                "George Bernard Shaw",
+                "Oscar Wilde",
+                "Arthur Miller",
+                "Tennessee Williams"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Which animal is known as the 'King of the Jungle'?",
+            "options": [
+                "Lion",
+                "Tiger",
+                "Elephant",
+                "Giraffe",
+                "Leopard"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": [
+                "Liver",
+                "Heart",
+                "Lungs",
+                "Kidneys",
+                "Skin"
+            ],
+            "answer": 4
+        }
+    ]
+}
