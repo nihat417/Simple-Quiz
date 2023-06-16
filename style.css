@@ -5,6 +5,7 @@
   box-shadow: 0 0 10px #333;
   margin: 20vh auto;
   text-align: center;
+  background: #FDFFF7;
 }
 ul {
   list-style: none;
@@ -23,3 +24,5 @@ ul {
     padding: 10px 15px;
     margin: 20px auto;
 }
+
+body{ background: #315659;}

@@ -25,7 +25,7 @@ function nextQuestion() {
     if ( x < quiz.length ) {
         h1.innerHTML = `Question: ${x + 1}`
         h2.innerHTML = quiz[x].question
-        ul.innerHTML = quiz[x].options.reduce( (code, o, i) => code += `<li><input onclick="saveAnsw(${x},${i})" name="a" type="radio">${o}</li>` , '' );
+        ul.innerHTML = quiz[x].options.reduce( (code, o, i) => code += `<li><input onclick="saveAnsw(${x},${i})" name="a" type="radio" ${answ[x] === i ? ' checked' : ''} >${o}</li>` , '' );
         btn1.innerHTML = x < quiz.length - 1 ? "Next" : "Submit";
         btn1.style.background = btn1.innerHTML != "Next" ? "red" : "#464D77";
         x++
