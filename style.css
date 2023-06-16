@@ -1,0 +1,25 @@
+#main {
+  width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #333;
+  margin: 20vh auto;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  text-align: initial;
+  padding: 0 0 0 200px;
+}
+
+.newbtn1{
+    background: #464D77;
+    color: #fff;
+    width: 100px;;
+    font-size: 1,2rem;
+    font-family: "Proxima Nova";
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 20px auto;
+}
