@@ -2,114 +2,774 @@
     "title": "World knowledges",
     "quiz": [
         {
-            "question": "What is the capital of France?",
-            "options": [
-                "London",
-                "Berlin",
-                "Paris",
-                "Madrid",
-                "Rome"
-            ],
-            "answer": 2
+          "question": "Sapların toxuculuğa hazırlanması prosesində ərişləmədən sonra hansı mərhələ yerinə yetirilir?",
+          "options": [
+            "emulsiyalama",
+            "şlixtləmə",
+            "təkrar sarınma",
+            "nəmləndirmə",
+            "birləşdirmə"
+          ],
+          "answer": 1
         },
         {
-            "question": "Which planet is known as the Red Planet?",
-            "options": [
-                "Venus",
-                "Jupiter",
-                "Mars",
-                "Mercury",
-                "Saturn"
-            ],
-            "answer": 2
+          "question": "Texnoloji ardıcıllıqla əriş ipliyi təkrar sarınmadan sonra hansı texnoloji prosesdən keçirilir?",
+          "options": [
+            "şlixtləmə",
+            "emulsiyalama",
+            "nəmləndirmə",
+            "təkrar sarınma",
+            "ərişləmə"
+          ],
+          "answer": 4
         },
         {
-            "question": "What is the chemical symbol for gold?",
+          "question": "Sapların toxuculuğa hazırlanması prosesində əriş ipliyi hansı texnoloji prosesi keçir?",
+          "options": [
+            "nəmləşdirmə",
+            "A,B,C",
+            "ərişləmə",
+            "şlixtləmə",
+            "təkrar sarınma"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Əriş sapları təyin olunmuş sayda nəyə sarınır?",
+          "options": [
+            "daranır",
+            "toxucu navoyuna sarınır",
+            "rənglənir",
+            "kəçilir",
+            "yuxarıda göstərilən bütün proseslər aparılır"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Toxuculuq üçün hansı ipliklər hazırlanmalıdır?",
+          "options": [
+            "əriş və arğac",
+            "xolst",
+            "lent",
+            "arğac",
+            "kələf"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Parçanın toxunması toxuculuq istehsalının hansı mərhələsidir?",
+          "options": [
+            "başlanğıc",
+            "yekun",
+            "ilk",
+            "orta",
+            "keçid"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Məkik parçanın toxunması üçün hansı sapı salır?",
+          "options": [
+            "xolstu",
+            "kələfi",
+            "əriş sapını",
+            "arğac sapını",
+            "lenti"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Arğac sapı əriş sapına nisbətən hansı vəziyyətdə olur?",
+          "options": [
+            "çarpaz",
+            "perpendikulyar",
+            "paralel",
+            "maili",
+            "kəsişən"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Əriş sapı hansı sistem saplar qrupuna aiddir?",
+          "options": [
+            "maili",
+            "kəsişən",
+            "paralel",
+            "perpendikulyar",
+            "çarpaz"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Remizaların yerinin dəyişməsi nəticəsində nə əmələ gəlir?",
+          "options": [
+            "arğac sapı sarınır",
+            "əsnək əmələ gəlir",
+            "parça formalaşır",
+            "arğac sapı salınır",
+            "əriş sapı sarınır"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Parçanın bir elementi dəzgahın hansı üzvünün tam bir dövründə baş verir?",
+          "options": [
+            "sayğacın",
+            "batanın",
+            "baş valının",
+            "məkiyın",
+            "remizanın"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Parçanın bir elementinin tamamlanması baş valın neçə dərəcə bucaq altında çevrilməsindən alınır?",
+          "options": [
+            "90 dərəcə",
+            "1440 dərəcə",
+            "720 dərəcə",
+            "360 dərəcə",
+            "180 dərəcə"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Əsnəyin əmələ gəlməsinə kömək etməsi üçün əriş sapları hansı mexanizmin gözlüyündən keçirilir?",
+          "options": [
+            "mal valının",
+            "remizanın",
+            "sayğacın",
+            "məkikın",
+            "batanın"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qarışıq düşməməsi üçün əriş sapları hansı mexanizmin gözlüyündən keçirilir?",
+          "options": [
+            "məkikın",
+            "sayğacın",
+            "mal valının",
+            "rapiranın",
+            "batanın"
+          ],
+          "answer": 4
+        },
+        {
+          "question": "Məkiyin dəzgahın bir tərəfindən o biri tərəfinə keçməsinə nə kömək edir?",
+          "options": [
+            "rapira",
+            "lamel",
+            "sayğac",
+            "vurucu mexanizm",
+            "mal valı"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Parçanın hər 100 metr toxunmasını qeyd edən hissəyə siqnalı nə ötürür?",
+          "options": [
+            "vurucu mexanizm",
+            "sayğac",
+            "baş val",
+            "lamel",
+            "məkik"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Toxunmuş parçanı hansı mexanizm çəkir?",
+          "options": [
+            "batan",
+            "baş val",
+            "lamel",
+            "vurucu mexanizmə",
+            "mal valı"
+          ],
+          "answer": 4
+        },
+        {
+          "question": "Toxunmuş parça hara sarınır?",
+          "options": [
+            "vurucu mexanizmə",
+            "baş vala",
+            "mal valına",
+            "lamelə",
+            "batana"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Batan mexanizmi hansı əməliyyatı yerinə yetirir?",
+          "options": [
+            "arğac sapını parçanın başlanğıcına vurur",
+            "əriş və arğac sapını sarıyır",
+            "əriş sapını parçanın başlanğıcına vurur",
+            "arğac sapını burur",
+            "arğac sapını salır"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Arğac sapını parçanın başlanğıcına hansı işçi orqanı vurur?",
+          "options": [
+            "baş val",
+            "məkik",
+            "remizalar",
+            "batan",
+            "lamellər"
+          ],
+          "answer": 3
+        },
+        {
+            "question": "Əriş sapını dəzgahın boyu istiqamətində hansı işçi orqanı çəkir?",
             "options": [
-                "Ag",
-                "Au",
-                "Cu",
-                "Fe",
-                "Hg"
+              "baş val",
+              "lamellər",
+              "hazır mal valı",
+              "remizalar",
+              "batan"
+            ],
+            "answer": 2
+          },
+          {
+            "question": "Əsnəyin əmələ gəlməsi üçün remizalar nə etməlidirlər?",
+            "options": [
+              "biri yuxarı, o biri aşağı düşməlidir və əksinə",
+              "hər ikisinin tərpənməz qalması",
+              "hər ikisinin aşağı düşməsi",
+              "hər ikisinin yuxarıya qalxması",
+              "hamısının yuxarıya qalxması"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Əsnəyin əmələ gəlməsi üçün hansı mexanizmlər işə düşməlidir?",
+            "options": [
+              "remizalar",
+              "hazır mal valı",
+              "lamellər",
+              "daraq mexanizmi",
+              "vurucu mexanizmlər"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Əriş sapı hansı işçi orqandar açılır?",
+            "options": [
+              "hazır mal valından",
+              "lameldən",
+              "batandan",
+              "vurucu mexanizmdən",
+              "navoydan"
+            ],
+            "answer": 4
+          },
+          {
+            "question": "Arğac sapının parçaya salınması üçün hansı əməliyyat baş verməlidir?",
+            "options": [
+              "dəzgah dayanmalıdır",
+              "dəzgah yağlanmalıdır",
+              "əriş sapı qırılmalıdır",
+              "əsnək əmələ gəlməlidir",
+              "arğac sapı qırılmalıdır"
+            ],
+            "answer": 3
+          },
+          {
+            "question": "Arğac sapının qoyulması üçün nədən istifadə edilir?",
+            "options": [
+              "batandan",
+              "lameldən",
+              "qoruyucu mexanizmdən",
+              "məkikdən",
+              "baş valdan"
+            ],
+            "answer": 3
+          },
+          {
+            "question": "Parçanın formalaşmasında lamellər hansı rolu oynayır?",
+            "options": [
+              "əriş sapının qırılmasını bildirir",
+              "əriş və arğac sapına nəzarət edir",
+              "əriş sapının dartılrmasını bildirir",
+              "əriş sapının qurtarmasını bildirir",
+              "arğac sapının qırılmasını bildirir"
+            ],
+            "answer": 2
+          },
+          {
+            "question": "Əriş sapı parçanın hansı istiqamətinə düzülmüşdür?",
+            "options": [
+              "qalınlığına",
+              "eninə",
+              "uzununa",
+              "hündürlüyünə",
+              "diaqonalına"
+            ],
+            "answer": 2
+          },
+          {
+            "question": "Arğac sapı parçanın hansı istiqamətində gedir?",
+            "options": [
+              "eninə",
+              "diaqonalına",
+              "qalınlığına",
+              "hündürlüyünə",
+              "uzununa"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Parçanın eni istiqamətində düzülmüş saplara nə deyilir?",
+            "options": [
+              "arğac",
+              "lent",
+              "iplik",
+              "kələf",
+              "əriş"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Parçanın uzunu boyunca gedən saplara nə deyilir?",
+            "options": [
+            "iplik",
+            "əriş",
+            "arqac",
+            "kələf",
+            "lent"
             ],
             "answer": 1
-        },
-        {
-            "question": "Who painted the Mona Lisa?",
+            },
+            {
+            "question": "Toxuculuq prosesi hansı istehsalatı təşkil edir?",
             "options": [
-                "Pablo Picasso",
-                "Claude Monet",
-                "Vincent van Gogh",
-                "Leonardo da Vinci",
-                "Michelangelo"
-            ],
-            "answer": 3
-        },
-        {
-            "question": "What is the largest ocean on Earth?",
-            "options": [
-                "Atlantic Ocean",
-                "Indian Ocean",
-                "Arctic Ocean",
-                "Southern Ocean",
-                "Pacific Ocean"
-            ],
-            "answer": 4
-        },
-        {
-            "question": "Which country is known as the Land of the Rising Sun?",
-            "options": [
-                "China",
-                "India",
-                "South Korea",
-                "Japan",
-                "Thailand"
-            ],
-            "answer": 3
-        },
-        {
-            "question": "What is the capital of Australia?",
-            "options": [
-                "Sydney",
-                "Melbourne",
-                "Canberra",
-                "Brisbane",
-                "Perth"
-            ],
-            "answer": 3
-        },
-        {
-            "question": "Who wrote the play Romeo and Juliet?",
-            "options": [
-                "William Shakespeare",
-                "George Bernard Shaw",
-                "Oscar Wilde",
-                "Arthur Miller",
-                "Tennessee Williams"
+            "parça istehsalı",
+            "iplik istehsalı",
+            "kələf istehsalı",
+            "lent istehsalı",
+            "xolst istehsalı"
             ],
             "answer": 0
-        },
-        {
-            "question": "Which animal is known as the 'King of the Jungle'?",
+            },
+            {
+            "question": "İki perpendikulyar sap sistemilə formalaşan toxuculuq materialına nə deyilir?",
             "options": [
-                "Lion",
-                "Tiger",
-                "Elephant",
-                "Giraffe",
-                "Leopard"
+            "toxunmayan material",
+            "lent",
+            "sap",
+            "parça",
+            "trikotaj"
+            ],
+            "answer": 3
+            },
+            {
+            "question": "Parçanın alınmasında neçə sistem sap işlənilir?",
+            "options": [
+            "2",
+            "1",
+            "5",
+            "4",
+            "3"
             ],
             "answer": 0
-        },
-        {
-            "question": "What is the largest organ in the human body?",
+            },
+            {
+            "question": "Parçanın toxunma növləri hansı göstəricilərə aiddir?",
             "options": [
-                "Liver",
-                "Heart",
-                "Lungs",
-                "Kidneys",
-                "Skin"
+            "kompleks göstəricisinə",
+            "quruluş göstəricisinə",
+            "keyfiyyət göstəricisinə",
+            "baza göstəricisinə",
+            "estetik göstəricisinə"
+            ],
+            "answer": 1
+            },
+            {
+            "question": "Parçanın eni hansı dəzgahın işçi enindən asılıdır?",
+            "options": [
+            "toxucu maşının",
+            "çırpıcı maşının",
+            "qarışdırıcı maşının",
+            "kələf maşının",
+            "əyirici maşının"
+            ],
+            "answer": 0
+            },
+            {
+            "question": "Tərkibi yundan olan ipliklərin şlixtlənməsi hansı maşında aparılır?",
+            "options": [
+            "rəngli",
+            "qapalı",
+            "kameralı",
+            "ekranlı",
+            "pəncərəli"
+            ],
+            "answer": 2
+            },
+            {
+            "question": "Yeni navoyla köhnə navoyun sapları hansı əməliyyatlarla birləşdirilir?",
+            "options": [
+            "təkrar sarıma",
+            "ərişləmə",
+            "ucdüyünləmə yaxud sapkeçirmə",
+            "nəmləşdirmə",
+            "emulsiyalaşdırma"
+            ],
+            "answer": 2
+            },
+            {
+            "question": "Əriş sarıyan avtomatın hər seksiyasında neçə sarıyışı başlığı vardır?",
+            "options": [
+            "5",
+            "6",
+            "2",
+            "3",
+            "4"
+            ],
+            "answer": 1
+            },
+            {
+            "question": "Əriş sarıyan avtomat neçə seksiyadan ibarətdir?",
+            "options": [
+            "2",
+            "1",
+            "5",
+            "4",
+            "3"
+            ],
+            "answer": 0
+            },
+            {
+            "question": "Sapların təkrar sarınması zamanı onun xətti sürəti neçə m/dəq- dir?",
+            "options": [
+            "500-700",
+            "200-400",
+            "300-500",
+            "400-600",
+            "700-900"
+            ],
+            "answer": 2
+            },
+            {
+            "question": "Bağlamanın təkrar sarınması zamanı bağlamanın fırlanma tezliyi neçə min dov/dəq- dir?",
+            "options": [
+            "5-12",
+            "7-14",
+            "3-9",
+            "4-11",
+            "6-13"
+            ],
+            "answer": 0
+            },
+            {
+            "question": "Arğac sapının təkrar sarınması üçün hansı avtomatdan istifadə olunur?",
+            "options": [
+            "ППМ-120",
+            "TK-100",
+            "П-182",
+            "ПK-100",
+            "УА-300-3"
             ],
             "answer": 4
-        }
-    ]
+            },
+            {
+            "question": "Arğac sapının qırılmalarını azaldılması üçün hansı prosesdən keçirilir?",
+            "options": [
+            "emulsiyalaşdırılma",
+            "təkrar sarınma",
+            "nəmləşdirilmə və emulsiyalaşdırılma",
+            "ərişləmə",
+            "ucdüyünləmə"
+            ],
+            "answer": 2
+            },
+            {
+            "question": "Arğac sapı sarınan bağlamanın quruluşu düz gəlmədikdə onu hansı əməliyyatdan keçirirlər?",
+            "options": [
+            "ucdüyünləmə",
+            "emulsiyalaşdırılma",
+            "təkrar sarınma",
+            "nəmləşdirilmə",
+            "ərişləmə"
+            ],
+            "answer": 2
+            },
+            {
+            "question": "Arğac sapının nəmləşdirilməsi və emulsiyalaşdırılmasının məqsədi nədir?",
+            "options": [
+            "sapların çəkisini azaltmaq üçün",
+            "sapların uzunluğunu artırmaq üçün",
+            "sapların qırılmalarını çoxaltmaq üçün",
+            "sapların qırılmalarını azaltmaq üçün",
+            "sapların qalınlığını artırmaq üçün"
+            ],
+            "answer": 3
+            },
+            {
+            "question": "Arğac sapı hansı hallarda təkrar sarınma prosesinə məruz edilir?",
+            "options": [
+            "bağlamanın ölçüsü düz gəlmədikdə",
+            "bağlamanın quruluşu düz gəlmədikdə",
+            "bağlamada sapın qırılması olduqda",
+            "bağlamada sapın uzunluğu bəs etmədikdə",
+            "bağlamanın çəkisi düz gəlmədikdə"
+            ],
+            "answer": 1
+            },
+            {
+            "question": "Arğac saplarının bağlaması uyğun strukturda olmadıqda onu hansı əməliyyatdan keçirilir?",
+            "options": [
+            "emulsiyalaşdırma",
+            "şlixləmə",
+            "ucdüyünləmə",
+            "ərişləmə",
+            "təkrar sarınma"
+            ],
+            "answer": 4
+            },
+            {
+            "question": "Süni ipək sapların şlixtlənib hazırlanması üçün hansı şlixtləyici maşından istifadə edilir?",
+            "options": [
+            "kameralı",
+            "kombinəli qurudusu olan",
+            "rəngləyən",
+            "toxuyan",
+            "barabanlı"
+            ],
+            "answer": 1
+            },
+            {
+            "question": "Pambıqdan hazırlanmış ipliklər üçün hansı şlixtləmə maşını istifadə olunur?",
+            "options": [
+            "barabanlı",
+            "kombinəli qurudusu olan",
+            "rəngləyən",
+            "heç biri doğru deyil",
+            "kameralı"
+            ],
+            "answer": 0
+            },
+            {
+                "question": "Şlixtləmə maşınları neçə qrupa bölünür?",
+                "options": [
+                "5",
+                "6",
+                "3",
+                "2",
+                "8"
+                ],
+                "answer": 2
+                },
+                {
+                "question": "Şlixtləmə maşını hansı texnoloji prosesi yerinə yetirir?",
+                "options": [
+                "ipliyin üzərinə əlavə qat çəkir",
+                "ipliyin üzərindəki kənar qarışıqları təmizləyir",
+                "ipliyi təkrar sarıyır",
+                "ipliyi ərişləyir",
+                "ipliyi rəngləyir"
+                ],
+                "answer": 0
+                },
+                {
+                "question": "Toxucu dəzgahında deformasiyalara, yeyilmələrə və sürtünmələrə qarşı möhkəmlik vermək üçün əriş iplikləri hansı prosesə məruz edilir?",
+                "options": [
+                "rənglənir",
+                "dartılır",
+                "paralelləşdirilir",
+                "emulsiyalanır",
+                "şlixtlənir"
+                ],
+                "answer": 4
+                },
+                 {
+                "question": "İpliklərin ərişlənməsi hansı üsulla aparılır?",
+                "options": [
+                "əlavə burulma aparmaqla",
+                "temperaturun artırılması ilə",
+                "nəmləndirməklə",
+                "qurutmaqla",
+                "partiya, lent, seksiya üsulu ilə"
+                ],
+                "answer": 4
+                },
+                 {
+                "question": "İpliklərin ərişlənməsi neçə üsulla aparılır?",
+                "options": [
+                "5",
+                "7",
+                "3",
+                "8",
+                "6"
+                ],
+                "answer": 2
+                },
+                 {
+                "question": "İpliklərin rənglənməsi üçün ipliklər hansı formalı bağlamalara sarınır?",
+                "options": [
+                "konus",
+                "dairəvi",
+                "silindrik",
+                "kvadrat",
+                "kub"
+                ],
+                "answer": 2
+                },
+                 {
+                "question": "Əriş ipliklərinin təkrar sarınması zamanı bağlama hansı formada olur?",
+                "options": [
+                "silindr",
+                "dairəvi",
+                "kvadrat",
+                "kub",
+                "konus"
+                ],
+                "answer": 4
+                },
+                {
+                "question": "Çarpaz sarınma üsulu ilə formalaşan bağlamalar hansı formada olur?",
+                "options": [
+                "silindr və konus",
+                "kvadrat",
+                "dairəvi",
+                "düzgün cavab yoxdur",
+                "kub"
+                ],
+                "answer": 0
+                },
+                {
+                "question": "Çarpaz sarınma zamanı sarğılar hansı bucağ altında sarınır?",
+                "options": [
+                "1-5 dərəcə",
+                "10-15 dərəcə",
+                "20-30 dərəcə",
+                "30-40 dərəcə",
+                "5-10 dərəcə"
+                ],
+                "answer": 1
+                },
+                {
+                "question": "Sap gəzdirənin xətti sürəti ilə bağlamanın bucaq sürəti bərabərləşərsə, onda hansı növ sarınma alınır?",
+                "options": [
+                "jqut",
+                "lent",
+                "sota",
+                "lenta-jqut",
+                "lenta-sota"
+                ],
+                "answer": 0
+                },
+                {
+                "question": "Sarınma bucağı sapın diametrinə bərabər olduqda sarğı necə adlanır?",
+                "options": [
+                "çarpaz",
+                "qatışıq",
+                "düz",
+                "perpendikulyar",
+                "paralel"
+                ],
+                "answer": 4
+                },
+                 {
+                "question": "Sarınma bucağının həddindən asılı olaraq formalaşan sarınması üsulu necə adlanır?",
+                "options": [
+                "perpendikulyar",
+                "düz",
+                "paralel yaxud çarpaz",
+                "üst-üstə",
+                "eninə"
+                ],
+                "answer": 2
+                },
+                {
+                "question": "Təkrar sarınma prosesində təmizləyici-nəzarətçi qurğu hansı işi görür?",
+                "options": [
+                "tiftiklər və kənar qüsurlar təmizlənilir",
+                "ipliklər rənglənir",
+                "ipliklər nəmləndirilir",
+                "ipliklər toxunur",
+                "ipliklər düyünlənir"
+                ],
+                "answer": 0
+                },
+                 {
+                "question": "Əriş saplarının təkrar sarınmasının məqsədi nədir?",
+                "options": [
+                "sapların partiyalara ayrılması",
+                "daha uzun və tək sapdan yeni bağlama yaratmaq",
+                "sapların rənglənməsi",
+                "paralel sarınma aparmaq",
+                "çarpaz sarınma aparmaq"
+                ],
+                "answer": 1
+                },
+                 {
+                "question": "Parça dəzgahda toxunub qurtardıqdan sonra necə adlandırılır?",
+                "options": [
+                "xam parça",
+                "heç biri doğru deyil",
+                "donluq parça",
+                "paltoluq",
+                "alt-üst geyimliyi"
+                ],
+                "answer": 0
+                },
+                {
+                "question": "Parça toxucu dəzgahında toxunduqdan sonra hansı prosesdən keçir?",
+                "options": [
+                "boyaq-bəzək",
+                "anbarda saxlanmaya",
+                "şlixtin vurulması",
+                "növləşdirilir",
+                "şlixtin yuyulması"
+                ],
+                "answer": 3
+                },
+                 {
+                "question": "Arğac ipliyi nəmləşdirildikdən yaxud emulsiyalamaşdırıldıqdan sonra hansı prosesı keçir ?",
+                "options": [
+                "növləşdirməyə",
+                "toxucu dəzgahına yüklənir",
+                "birləşdirməyə",
+                "şlixtləməyə",
+                "təkrar sarınmaya"
+                ],
+                "answer": 1
+                },
+                 {
+                "question": "Arğac ipliyi təkrar sarınma prosesindən sonra hansı əməliyyata məruz edilir?",
+                "options": [
+                "nəmləşdirmə yaxud emulsiyalama",
+                "şlixtləmə",
+                "birləşdirmə",
+                "növləşdirmə",
+                "ucdüyünləmə"
+                ],
+                "answer": 0
+                },
+                {
+                "question": "Arğac ipliyinin bağlamasının strukturu dəzgah üçün yararlı olmadıqda o hansı əməliyyatdan keçirilir?",
+                "options": [
+                "nəmləşdirmə",
+                "şlixtləmə",
+                "təkrar sarınma",
+                "birləşdirmə",
+                "ərişləmə"
+                ],
+                "answer": 2
+                },
+                 {
+                "question": "Əyirici fabrikində istehsal olunmuş ipliklərin toxuculuq fabrikində hansı məqsədlər üçün istifadə olunur?",
+                "options": [
+                "şlixtlənməsı üçün",
+                "nəmləşdirməyə verilməsi üçün",
+                "təkrar sarınması üçün",
+                "əriş və arğac ipliyi üçün",
+                "toxucu dəzgahına verilmək üçün"
+                ],
+                "answer": 3
+                }
+      ]
 }
