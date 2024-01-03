@@ -1,0 +1,1086 @@
+{
+  "title": "Texnk mex for Adil",
+  "quiz": [
+    {
+      "question": ". Ayrilıqda ğötürülən normal silindrik dişli çarxın hansı çevrəsi olmur?",
+      "options": [
+        "Təpə",
+        "Dib",
+        "Bölğü",
+        "Əsas",
+        "Başlanğıç"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Rabitənin reaksiya qüvvəsi necə yönəlir?",
+      "options": [
+        "Qeyri-sərbəst cismin hərəkət edə bilmədiyi istiqamətin əksinə",
+        "Cismin hərəkəti istiqamətində",
+        "Cismə təsir edən qüvvə istiqamətində",
+        "Cismə təsir edən qüvvənin əksi istiqamətində",
+        "Ağırlıq qüvvəsi istiqamətində"
+      ],
+      "answer": 0
+    },
+    {
+      "question": ". Hansı yüklər dinamiki yüklər adlanır ?",
+      "options": [
+        "qısa müddətli yüklər",
+        "öz qiymət və istiqamətini nisbətən tez dəyişən yüklər",
+        "uzun müddətli yüklər",
+        "uzun və qısa müddətli yüklər"
+      ],
+      "answer": 1
+    },
+    {
+      "question": ". Aşağıda göstərilən hansı hallarda cisim sərbəst cisim adlanır?",
+      "options": [
+        "müstəvi üzərində yastı paralel hərəkət etdikdə",
+        "fəzada ancaq fırlanma hərəkət etdikdə",
+        "fəzada ancaq irəliləmə hərəkəti etdikdə",
+        "cisim fəzada istənilən istiqamətdə yerdəyişmə aldıqda"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Paralel olmayan üç qüvvənin müvazinətdə olması üçün onların təsir xətlərinin bir nöqtədə kəsişməsi kifayətdirmi?",
+      "options": [
+        "Kifayət deyil;",
+        "Qüvvələrdən biri sıfra bərabər olarsa kifayətdir;",
+        "Kifayətdir;",
+        "Qüvvələr bir müstəvi üzərində yerləşməzsə kifayətdir;",
+        "Qüvvələr fəza sistemi təşkil edərsə kifayətdir;"
+      ],
+      "answer": 0
+    },
+    {
+      "question": ". Qüvvənin oxa nəzərən momentinin sıfra bərabər olmasının ümumi halı aşağıdakılardan hansıdır?",
+      "options": [
+        "Qüvvənin qiyməti sıfırdan fərqli olduqda;",
+        "Qüvvə ilə ox kəsişən müstəvilər üzərində yerləşərsə;",
+        "Qüvvə ilə ox perpendikulyar müstəvilər üzərində yerləşərsə;",
+        "Qüvvə ilə ox bir müstəvi üzərində yerləşərsə;",
+        "Qüvvə və ox çarpaz olduqda;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Əks tərəfə yönələn iki paralel qüvvənin əvəzləyicisi necə yönəlir?",
+      "options": [
+        "Bu qüvvələrə perpendikulyar istiqamətdə;",
+        "Qüvvələrə maili istiqamətdə;",
+        "Bu qüvvələrə paralel olub kiçik qüvvə tərəfə;",
+        "İxtiyari istiqamətdə;",
+        "Bu qüvvələrə paralel olub böyük qüvvə tərəfə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Üç qüvvənin müvazinətdə olması üçün aşağıdakı şərtlərdən hansı hökmən yerinə yetirilməlidir?",
+      "options": [
+        "Bu qüvvələrin modulları",
+        "Bu qüvvələr bir nöqtədə tətbiq olunmalıdır;",
+        "Bu qüvvələr bir-birinə paralel olmalıdır;",
+        "Bu qüvvələr bir müstəvi üzərində yerləşməlidir;",
+        "Bu qüvvələrdən heç olmazsa biri sıfra bərabər olmalıdır;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Bir nöqtədə tətbiq olunmuş iki qüvvə üçün aşağıdakı müddəalardan hansı doğrudur?",
+      "options": [
+        "Bu qüvvələrin əvəzləyicisinin modulu onların modullarının cəminə bərabər olar;",
+        "Bu qüvvələr bir cütə gətirilə bilər;",
+        "Bu qüvvələr müvazinətdə olar;",
+        "Bu qüvvələr bir əvəzləyici qüvvəyə gətirilə bilər;",
+        "Bu qüvvələr iki çarpaz qüvvəyə gətirilə bilər;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Mütləq bərk cismə tətbiq olunmuş qüvvəni özünə paralel olaraq bu cismin digər nöqtəsinə köçürsək nə alarıq?",
+      "options": [
+        "Bir cüt;",
+        "İki paralel qüvvə;",
+        "İki kəsişən qüvvə;",
+        "Bir qüvvə və bir cüt;",
+        "Bir qüvvə;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". İrəliləmə hərəkəti edən bərk cismin nöqtələrinin sürət və təcilləri aşağıdakı şərtlərdən hansını ödəyir?",
+      "options": [
+        "Cismin nöqtələrinin hamısı eyni sürətə və eyni təcilə malikdir;",
+        "Sürət və təcillər hökmən qiymətcə sabitdirlər;",
+        "Sürət və təcillər sıfra bərabərdir;",
+        "Sürətlər eyni, təcillər fərqlidir;",
+        "Təcillər eyni, sürətlər fərqlidir;"
+      ],
+      "answer": 0
+    },
+    {
+      "question": ". Nöqtənin təcilinin trayektoriyaya toxunan üzərindəki proyeksiyası sabit olarsa, bu nöqtə nə cür hərəkət edər?",
+      "options": [
+        "Mürəkkəb hərəkət;",
+        "Nisbi hərəkət;",
+        "Bərabərsürətli hərəkət;",
+        "Müntəzəm dəyişən hərəkət;",
+        "İxtiyari hərəkət;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ".",
+      "options": [
+        "ixtiyari nöqtəyə",
+        "z oxuna",
+        "y oxuna",
+        "x oxuna",
+        "köçürmə mərkəzinə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Aşağıdakı müddəaların hansı bərk cismin tərpənməz ox ətrafında fırlanma hərəkətinə uyğundur?",
+      "options": [
+        "cismin bir nöqtəsi tərpənməz qalır;",
+        "cismin nöqtələrinin hamısı eyni cür hərəkət edir;",
+        "cismin nöqtələrinin sürətləri qiymətcə dəyişmir;",
+        "cismin iki nöqtəsi tərpənməz qalır;",
+        "cismin nöqtələrinin sürətləri istiqamətcə dəyişmir;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Tərpənməz ox ətrafında fırlanan cismin bucaq təcili sabit qalarsa bu hansı hərəkət olar?",
+      "options": [
+        "bərk cismin müntəzəm dəyişən irəliləmə hərəkəti;",
+        "irəliləmə hərəkəti;",
+        "müntəzəm fırlanma hərəkəti;",
+        "müntəzəm dəyişən fırlanma hərəkəti;",
+        "müntəzəm irəliləmə hərəkəti;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Bərk cismin irəliləmə hərəkəti aşağıdakılardan hansıdır?",
+      "options": [
+        "cismin bir nöqtəsi tərpənməzdir;",
+        "cismin nöqtələri bir-birindən fərqli trayektoriyalar cızır;",
+        "cismin nöqtələri tərpənməz müstəviyə paralel müstəvi üzərində hərəkət edirlər;",
+        "cismin üzərində götürülmüş düz xətt parçası öz-özünə paralel qalır;",
+        "cismin iki nöqtəsi tərpənməzdir;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Bərk cismin irəliləmə hərəkətində onun nöqtələrinin sürətləri:",
+      "options": [
+        "qiymət və istiqamətcə eynidir;",
+        "bir nöqtədə kəsişirlər;",
+        "sıfra bərabərdir;",
+        "qiymətcə bərabər, istiqamətcə fərqlidir;",
+        "qiymətcə fərqli, istiqamətcə eynidir;"
+      ],
+      "answer": 0
+    },
+    {
+      "question": ". Baxılan nöqtə qiymətcə sabit sürətlə hərəkət edir. Buradan belə nəticə çıxır ki, ...",
+      "options": [
+        "normal təcil sabitdir;",
+        "toxunan təcil sıfra bərabər deyil;",
+        "normal təcil sıfra bərabərdir;",
+        "tam təcil normal təcilə bərabərdir;",
+        "təcil sıfra bərabərdir;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". İrəliləmə hərəkəti edən cismin nöqtələrinin baxılan andakı təcilləri bir-birindən fərqlənə bilərmi?",
+      "options": [
+        "cismin nöqtələri əyrixətli hərəkət edərsə fərqlənə bilər;",
+        "fərqlənə bilməz;",
+        "ancaq xüsusi hallarda fərqlənə bilər;",
+        "fərqlənə bilər;",
+        "ancaq istiqamətcə fərqlənə bilməz;"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Cismin irəliləmə hərəkəti zamanı onun bütün nöqtələri eyni trayek¬to¬riyalar cızır və zamanın hər bir momentində sürət və təcilləri….",
+      "options": [
+        "Qiymətcə eyni istiqamətcə müxtəlif olurlar",
+        "Sıfıra bərabər olurlar",
+        "Qiymət və istiqamətcə müxtəlif olurlar",
+        "Qiymətcə müxtəlif istiqamətcə eyni olurlar",
+        "Qiymət və istiqamətcə eyni olurlar"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Əyrixətli trayektoriya üzrə hərəkət edən nöqtənin təcil vektoru necə yönəlir?",
+      "options": [
+        "trayektoriyanın qabarıq tərəfinə doğru;",
+        "ixtiyari istiqamətdə;",
+        "trayektoriyaya toxunan istiqamətdə;",
+        "trayektoriyanın çökük tərəfinə doğru;",
+        "nöqtənin sürəti istiqamətində;"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Əyrixətli trayektoriya üzrə hərəkət edən nöqtənin sürət vektoru necə yönəlir?",
+      "options": [
+        "trayektoriyanın çökük tərəfinə doğru;",
+        "trayektoriyanın qabarıq tərəfinə doğru;",
+        "trayektoriyaya toxunan istiqamətdə;",
+        "torayektoriyaya normal istiqamətdə;",
+        "istənilən istiqamətdə;"
+      ],
+      "answer": 2
+    },
+    {
+      "question": ". Modulu m = 4 mm olan normal silindrik dişli çarxin dişlərinin başcıq hissəsinin hündürlüyü nəyə bərabərdir?",
+      "options": [
+        "6,28 mm",
+        "5 mm",
+        "12,56 mm",
+        "4 mm",
+        "9 mm"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". m = 4 mm, z = 18 olan normal silindrik dişli çarxin bölğü çevrəsinin radiusu nəyə bərabərdir?",
+      "options": [
+        "40 mm",
+        "31 mm",
+        "33,84 mm",
+        "36 mm",
+        "30 mm"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Silindrik çarxın dişinin evolvent profilinə çəkilən normal onun hansı çevrəsinə toxunur?",
+      "options": [
+        "cevrəvi bucaq",
+        "bölğü",
+        "təpə",
+        "əsas",
+        "modul"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Silindrik çarxın dişinin evolvent profilinin hər hansı nöqtəsinin əyrilik mərkəzi onun hansı çevrəsi üzərində yerləşir?",
+      "options": [
+        "bölğü",
+        "dib",
+        "təpə",
+        "əsas",
+        "başlanğıc"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Dişli çarxın əsas parametri nədir?",
+      "options": [
+        "ilişmə bucağı",
+        "ötürmə ədədi",
+        "addım",
+        "dişlər sayı",
+        "modul"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Bir neçə bərk cismin verilmiş hərəkətini digər cismlərin tələb edilən hərəkətinə çevirən cisimlər sisteminə nə deyilir?",
+      "options": [
+        "maşın",
+        "kinematik birləşmə",
+        "kinematik silsilə",
+        "mexanizm",
+        "kinematik cüt"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". İki toxunan bəndin nisbi hərəkətinə imkan verən birləşməsinə nə deyilir?",
+      "options": [
+        "mexanizm",
+        "kinematik zəncir",
+        "kinematik birləşmə",
+        "kinematik cüt",
+        "maşın"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Göstərilən kinematik cütdə bəndlərin hansı nisbi hərəkətləri mümkündür?",
+      "options": [
+        "z boyunca irəliləmə;",
+        "x boyunca irəliləmə, x ətrafında fırlanma.",
+        "z boyunca irəliləmə, z ətrafında fırlanma;",
+        "x və y boyunca irəliləmə, z ətrafında fırlanma;",
+        "x və z boyunca irəliləmə;",
+        "z və y boyunca irəliləmə; x, y və z ətrafında fırlanma;",
+        "x boyunca irəliləmə, z ətrafında fırlanma.",
+        "x və y boyunca irəliləmə; y və z ətrafında fırlanma;",
+        "x, y və z ətrafında fırlanma;",
+        "x və y boyunca irəliləmə; z ətrafında fırlanma;"
+      ],
+      "answer": 8
+    },
+    {
+      "question": ". Qüvvələr analizində nə üçün mexanizmləri Assur qruplarına ayırırlar?",
+      "options": [
+        "Ağırlıq qüvvəsini tapmaq üçün",
+        "Sürtünmə qüvvəsini tapmaq üçün",
+        "Ətalət qüvvəsini tapmaq üçün",
+        "Assur qrupları statik həll olan sistemdir",
+        "Müqavimət qüvvəsini tapmaq üçün"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Statik həll olunan tirlərdə dayaq reaksiyalarının təyinində ... istifadə olunur",
+      "options": [
+        "Puasson tənliklərindən",
+        "qüvvələr üsulunun kanonik tənliklərindən",
+        "üç moment tənliklərindən",
+        "müvazinət tənliklərindən",
+        "deformasiyaların kəsilməzlik tənliklərindən"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Yastı eninə əyilmə tirin en kəsiyində...yaranır",
+      "options": [
+        "əyici moment və normal qüvvə təsir edəndə",
+        "əyici moment və kəsici qüvvə təsir edəndə",
+        "yaranan əyici moment en kəsiyin baş ətalət oxlarından keçən heç bir müstəvinin üzərində təsir etmirsə",
+        "iki daxili qüvvə faktoru təsir edəndə",
+        "yaranan əyici moment en kəsiyin baş ətalət oxlarının birindən keçən müstəvi üzərində təsir edirsə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Göstərilən xətti asılılıq nəyi ifadə edir?",
+      "options": [
+        "əyilmədə toxunan gərginliyi",
+        "ümumiləşmiş Huk qanununu",
+        "dartılma və sıxılmada Huk qanununu",
+        "burulmada toxunan gərginliyi",
+        "sürüşmədə Huk qanununu"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Əyici momenti xarakterizə edin?",
+      "options": [
+        "kəsik müstəvisi üzərindəki qüvvədən alınmış momentlə",
+        "kəsikdən bir tərəfdə qalan dayaq reaksiya qüvvəsindən alınmış momentə",
+        "kəsikdən bir tərəfdə qalan cüt qüvvələrin cəbri cəminə",
+        "kəsikdən bir tərəfdə qalan və şaquli istiqamətdə yönələn qüvvələrdən alınmış momentlə",
+        "kəsikdən bir tərəfdə qalan xarici qüvvələrin bu kəsiyin ağırlıq mərkəzinə nəzərən momentlərinin cəbri cəminə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Kəsici qüvvəni xarakterizə edin:",
+      "options": [
+        "kəsik müstəvisi üzərindəki qüvvəyə deyilir",
+        "kəsik müstəvisindən bir tərəfdə qalan reaksiya qüvvəsinə deyilir",
+        "kəsikdən bir tərəfdə qalan hissəyə təsir edən aşağıdan yuxarıya doğru yönəlmiş qüvvəyə deyilir",
+        "kəsik müstəvisindən bir tərəfdə qalan xarici qüvvələrin bu müstəvi üzərindəki proyeksiyalarının cəbri cəminə deyilir",
+        "kəsik müstəvisinin ağırlıq mərkəzinə nəzərən xarici qüvvələrin bu müstəvi üzərindəki proyeksiyalarının cəbri cəminə deyilir"
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Ən böyük normal gərginliklər kəsiyin hansı hissəsində alınır?",
+      "options": [
+        "neytral oxa ən yaxın nöqtələrində",
+        "neytral oxla ən yaxın nöqtə arasında olan məsafənin yarısına bərabər nöqtələrdə",
+        "neytral oxun üzərində olan nöqtələrdə",
+        "neytral oxla ən uzaqda olan nöqtə arasında olan məsafənin yarısına bərabər nöqtələrdə",
+        "neytral oxdan ən uzaqdakı nöqtələrdə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": ". Xalis əyilmədə kəsiyinin neytral oxu üzərindəki bütün nöqtələrdə normal gərginliklər necə dəyişir?",
+      "options": [
+        "normal gərginliklər ən böyük qiymətə bərabər olur",
+        "normal gərginliklər ən kiçik qiymətə bərabər olur",
+        "normal gərginliklər sıfra bərabər olur",
+        "normal gərginliklər toxunan gərginliklərə bərabər olur",
+        "normal gərginliklər buraxıla bilən gərginliyə bərabər olur"
+      ],
+      "answer": 2
+    },
+    {
+      "question": ". Kəsici qüvvə ədədi qiymətcə nəyə bərabərdir?",
+      "options": [
+        "kəsikdən bir tərəfdə qalan qüvvələrin üfüqi ox üzərindəki proyeksiyalarının cəbri cəminə",
+        "tirə təsir edən xarici qüvvələrin cəmi ilə dayaq reaksiya qüvvələri cəminin fərqinə",
+        "kəsikdən bir tərəfdə qalan qüvvələrin şaquli ox üzərindəki proyeksiyalarının cəbri cəminə",
+        "tirə təsir edən bütün xarici qüvvələrin cəminə",
+        "tirə təsir edən topa qüvvələrin cəminə"
+      ],
+      "answer": 2
+    },
+    {
+      "question": ". Reaksiya qüvvələrinin doğruluğu necə yoxlanılır.",
+      "options": [
+        "reaksiya qüvvələrinin cəmi xarici qüvvələrin yarısına bərabər olmalıdır.",
+        "tirə təsir edən xarici qüvvələrlə reaksiya qüvvələrinin fərqi vahid olmalıdır",
+        "xarici qüvvələrin cəmi reaksiya qüvvələrinin cəminin üç mislinə bərabər olmalıdır.",
+        "tirə təsir edən bütün qüvvələrin cəmi sıfra bərabər olmalıdır.",
+        "reaskiya qüvvələrinin cəmi xarici qüvvələrin cəmindən çox olmalıdır."
+      ],
+      "answer": 3
+    },
+    {
+      "question": ". Xalis əyilmə hansi parametrlə xarakteriza olunur",
+      "options": [
+        "tirin en kəsiyində yaranan sadə defərmasiya növülə",
+        "ixtiyari eninə əyilmə yaranarsa",
+        "tirin en kəsiyində yaranan əyici moment və kəsici qüvvə",
+        "tirin en kəsiyində yaranan əyici moment və normal qüvvə",
+        "tirin en kəsiyində yaranan əyici moment"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " ...belə əyilmə xalis əyilmə adlanır",
+      "options": [
+        "əgər tirin en kəsiyində əyici moment və kəsici qüvvə yaranarsa",
+        "ixtiyari eninə əyilmə yaranarsa",
+        "əgər tirin en kəsiyində yalnız əyici moment yaranarsa",
+        "əgər tirin en kəsiyində əyici moment və normal qüvvə yaranarsa",
+        "əgər tirin en kəsiyində ixtiyari sadə deformasiya növü yaranarsa"
+      ],
+      "answer": 2
+    },
+    {
+      "question": " Dartılma-sıxılmada hansı sistemlər statik həll olunmayan sistemlər adlanır?",
+      "options": [
+        "uzunluğu boyu eninə kəsik ölçüləri sabit olan millər sistemi",
+        "həndəsi ölçülərindən birinin qiyməti verilməmiş sistemlər",
+        "pillələrinin sayı üçdən çox olan sistemlər",
+        "daxili qüvvələri statikanın müvazinət tənlikləri ilə təyin oluna bilməyən sistemlər",
+        "məchullarının sayı sistem üçün tərtib oluna biləcək tənliklərinin sayı ilə eyni olan sistemlər"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Kəsmə üsullarından nə üçün istifadə olunur?",
+      "options": [
+        "materialının kəsilməzliyini təyin etmək üçün",
+        "cismə təsir edən xarici qüvvələrin xarakterini təyin etmək üçün",
+        "cismin ağırlıq mərkəzini təyin etmək üçün",
+        "cisimin materialının bircinsliliyini təyin etmək üçün",
+        "daxili qüvvəni (daxili qüvvə amillərini) təyin etmək üçün"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Pərçim birləşmələrini adətən hansı deformasiyaya qarşı hesablayırlar?",
+      "options": [
+        "əyilmə və burulma",
+        "dartılma",
+        "dartılma və sıxılma",
+        "əzilmə və kəsilmə",
+        "sıxılma"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Yazilmiş ifadələrdən hansi burulma deformasiyani xarakteriza edir?",
+      "options": [
+        "brusun en kəsiyində yalniz kəsici qüvvə yaranan deformasiya",
+        "brusun en kəsiyində əyici moment yaranan sadə deformasiya növünə",
+        "brusun en kəsiyində yalniz burucu moment yaranan , sadə deformasiya növünə",
+        "brusun en kəsiyində ikidaxili qüvvə faktoru yaranan yaranan deformasiya növünə",
+        "brusun en kəsiyində kəsici qüvvə və əyici moment yaranan deformasiya növünə."
+      ],
+      "answer": 2
+    },
+    {
+      "question": " Dartılan brusun en kəsiklərində daxili qüvvələrin hansı komponentləri alınır.",
+      "options": [
+        "kəsici qüvvə",
+        "burucu moment",
+        "əyici moment",
+        "normal qüvvə",
+        "kəsici və normal qüvvə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Elementin hər bir nöqtəsində gərginliklərin qiyməti nədən asılıdır",
+      "options": [
+        "tam gərginliklərin qiymətindən",
+        "toxunan gərginliklərin istiqamətindən",
+        "normal gərginliklərin istiqamətindən",
+        "kəsiyin istiqamətindən",
+        "baş gərginliklərin cəmindən"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Xarici qüvvənin təsirindən ən ümumi halda cismin en kəsiyində neçə daxili qüvvə amili yaranır ?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1",
+        "6"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " En kəsiklərində müsbət normal qüvvələr alinan deformasiya növünü seçin",
+      "options": [
+        "Burulma",
+        "Əyilmə",
+        "Sixilma",
+        "Dartilma",
+        "Sürüşmə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Tərpənən oynaqlı dayaqda reaksiya qüvvəsinin məchul elementləri hansılardır.",
+      "options": [
+        "reaksiya qüvvəsinin qiyməti və istiqaməti",
+        "reaksiya qüvvəsinin istiqaməti",
+        "reaksiya qüvvəsinin tətbiq nöqtəsi və istiqaməti",
+        "reaksiya qüvvəsinin qiyməti",
+        "reaksiya qüvvəsinin tətbiq nöqtəsi"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Maddi nöqtənin hərəkət miqdarının dəyişməsi nəyə bərabərdir?",
+      "options": [
+        "Sıfıra",
+        "Qüvvənin zaman görə törəməsinə",
+        "Qüvvənin gördüyü işə",
+        "Qüvvənin yaratdığı iş",
+        "Qüvvənin impulsuna"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Maddi nöqtənin hərəkət miqdraı necə kəmiyyətdir?",
+      "options": [
+        "Mürəkkəb",
+        "Skalyar",
+        "Adi",
+        "Vektorial",
+        "Sabit"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Maddi nöqtənin hərəkətinin differensial tənliklərini həll edərkən alınan inteqrallama sabitləri hansı şərtlərdən tapılır?",
+      "options": [
+        "Bu sabitlər əvvəlcədən verilir",
+        "Hərəkətin ixtiyari şərtlərindən",
+        "Hərəkətin sərhəd şərtlərindən",
+        "Hərəkətin başlanğıc şərtlərindən",
+        "Differensial tənliklərin özündən"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Ətalət qüvvəsi hansı hərəkətdə meydana çıxır?",
+      "options": [
+        "Sabit sürətli hərəkətdə",
+        "Düzxətli hərəkətdə",
+        "Bərabərsürətli düzxətli hərəkətdə",
+        "Təcilsiz hərəkətdə",
+        "Təcili hərəkətdə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Xalis əyilmədə hansı daxili faktoru təsir edir?",
+      "options": [
+        "ixtiyari eninə əyilmə yaranarsa",
+        "Tirin en kəsiyində əyici moment və normal qüvvə faktoru",
+        "tirin en kəsiyində ixtiyari sadə deformasiya yaranarsa",
+        "Tirin en kəsiyində əyici moment və kəsici qüvvə faktoru",
+        "Tirin en kəsiyində yalnız əyici moment faktoru"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Maddi nöqtənin hərəkət miqdarının dəyişməsi nəyə bərabərdir?",
+      "options": [
+        "Sıfra",
+        "Qüvvənin zamana görə törəməsinə",
+        "Qüvvənin gördüyü işə",
+        "Qüvvənin yaratdığı təcilə",
+        "Qüvvənin impulsuna"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Maddi sistemə təsir edən daxili qüvvələrin baş vektoru nəyə bərabərdir?",
+      "options": [
+        "Sıfırdan fərqlidir",
+        "Xarici qüvvələrin baş vektoruna",
+        "Daxili qüvvələrin qiymətlərinin cəminə",
+        "Əks işarə ilə xarici qüvvələrin baş vektoruna",
+        "Sıfra"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Maddi sistemə təsir edən xarici qüvvələr aşağıdakılardan hansıdır ?",
+      "options": [
+        "Sistemdən kənar maddi nöqtələrin qarşılıqlı təsir qüvvələri",
+        "Sistemin maddi nöqtələrinin qarşılıqlı təsir qüvvələri",
+        "Sistemdən kənar nöqtələrin ağırlıq qüvvələri",
+        "Sistemdən kənar maddi nöqtələrin həmin sistemə etdikləri təsir qüvvələri",
+        "Ancaq sistemin nöqtələrinin ağırlıq qüvvələri"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Maddi nöqtənin differensial formada kinetik enerjisinin dəyişməsi haqqında teorem necə ifadə olunur?",
+      "options": [
+        "Maddi nöqtənin təcilinin differensialı ona təsir edən ağırlıq qüvvəsinin elementar işinə bərabərdir",
+        "Maddi nöqtənin sürətinin differensialı xarici qüvvənin elementar işinə bərabərdir",
+        "Maddi nöqtənin sürətinin differensialı ağırlıq qüvvəsinin elementar işinə bərabərdir",
+        "Maddi nöqtənin kinetik enerjisinin differensialı ona təsir edən qüvvənin elementar işinə bərabərdir",
+        "Maddi nöqtənin təcilinin differensialı inersiya qüvvəsinin elementar işinə bərabərdir"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Maddi nöqtənin kinetik enerjisinin dəyişməsi nəyə bərabərdir?",
+      "options": [
+        "Maddi nöqtəyə təsir edən qüvvənin gücünə",
+        "Maddi nöqtəyə təsir edən qüvvəyə",
+        "Maddi nöqtəyə təsir edən qüvvənin törəməsinə",
+        "Maddi nöqtəyə təsir edən qüvvənin işinə",
+        "Maddi nöqtəyə təsir edən qüvvənin moduluna"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Gücü ifadə edən formul hansıdır?",
+      "options": [
+        "N= dA /dF",
+        "N= dF /dA",
+        "N= dF /dt",
+        "N=dA /dt",
+        "N= dE /dt"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Qüvvənin iş görmə qabiliyyətini xarakterizə etmək üçün hansı anlayışdan istifadə olunur?",
+      "options": [
+        "Təcildən",
+        "Hərəkət miqdarından",
+        "Kütlədən",
+        "Sürətdən",
+        "Gücdən"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Maddi nöqtə dinamikasının neçə əsas məsələsi vardir?",
+      "options": [
+        "üç",
+        "iki",
+        "dörd",
+        "altı",
+        "bir"
+      ],
+      "answer": 1
+    },
+    {
+      "question": " Tərpənməz ox ətrafında fırlanan cismin bucaq təcili sabit qalarsa bu hansı hərəkət olar?",
+      "options": [
+        "müntəzəm fırlanma hərəkəti",
+        "irəliləmə hərəkəti",
+        "müntəzəm irəliləmə hərəkəti",
+        "müntəzəm dəyişən fırlanma hərəkəti",
+        "bərk cismin müntəzəm dəyişən irəliləmə hərəkəti"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Bərk cismin irəliləmə hərəkəti aşağıdakılardan hansıdır?",
+      "options": [
+        "cismin nöqtələri tərpənməz müstəviyə paralel müstəvi üzərində hərəkət edirlər",
+        "cismin iki nöqtəsi tərpənməzdir",
+        "cismin bir nöqtəsi tərpənməzdir",
+        "cismin üzərində götürülmüş düz xətt parçası öz-özünə paralel qalır",
+        "cismin nöqtələri bir-birindən fərqli trayektoriyalar cızır"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Tərpənməz ox ətrafında fırlanan cismin bucaq təcilini göstərən hərəkət:",
+      "options": [
+        "İrəliləmə hərəkəti",
+        "Müntəzəm irəliləmə hərəkəti",
+        "Bərk cismin müntəzəm dəyişən irəliləmə hərəkəti",
+        "Müntəzəm dəyişən fırlanma hərəkəti",
+        "Müntəzəm fırlanma hərəkəti"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Tərpənməz ox ətrafında fırlanan cismin hər hansı bir nöqtəsinin normal təcili qiymətcə nəyə bərabərdir ?",
+      "options": [
+        "Müntəzəm qüvvə ilə sürətin hasilinə",
+        "Sabit moment ilə sürətin hasilinə",
+        "Sabit qüvvə ilə bucaq təcilinin hasilinə",
+        "Müntəzəm kütlə ilə təcilin hasilinə",
+        "Fırlanma radiusu ilə bucaq sürətinin kvadratının hasilinə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " İrəliləmə hərəkəti edən bərk cismin nöqtələrinin sürət və təcilləri aşağıdakı şərtlərdən hansını ödəyir?",
+      "options": [
+        "Sürətlər eyni, təcillər fərqlidir",
+        "Sürət və təcillər hökmən qiymətcə sabitdirlər",
+        "Təcillər eyni,sürətlər fərqlidir",
+        "Sürət və təcillər sıfra bərabərdir",
+        "Cismin nöqtələrinin hamısı eyni sürətə və eyni təcilə malikdir"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Bərk cismin tərpənməz ox ətrafında fırlanma hərəkəti aşağıdakılardan hansıdır?",
+      "options": [
+        "Cismin üzərində götürülmüş düz xətt parçası tərpənməz qalır",
+        "Bütün nöqtələrin sürət və təcilləri eyni olur",
+        "Cismin nöqtələri tərpənməz müstəviyə paralel müstəvilər üzərində hərəkət etmir",
+        "Cismin iki nöqtəsi tərpənməz qalır",
+        "Cismin bir nöqtəsi tərpənməz qalır"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Bərk cismin irəliləmə hərəkəti aşağıdakılardan hansıdır?",
+      "options": [
+        "Cismin üzərində götürülmüş düz xətt parçası tərpənməz qalır",
+        "Cismin bir nöqtəsi tərpənməz qalır",
+        "Cismin nöqtələri tərpənməz müstəviyə paralel müstəvilər üzərində hərəkət edir",
+        "Bütün nöqtələrin sürət və təcilləri eyni olur",
+        "Cismin iki nöqtəsi tərpənməz qalır"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Nöqtənin təcilinin trayektoriyaya toxunan üzərindəki proyeksiyası sabit olarsa, bu nöqtənin etdiyi hərəkət:",
+      "options": [
+        "Bərabərsürətli hərəkət",
+        "İxtiyari hərəkət",
+        "Mürəkkəb hərəkət",
+        "Nisbi hərəkət",
+        "Müntəzəm dəyişən hərəkət"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Nöqtənin təcilinin trayektoriyaya toxunan üzərindəki proyeksiyası sabit olarsa, bu nöqtə nə cür hərəkət edər?",
+      "options": [
+        "İxtiyari hərəkət",
+        "Müntəzəm dəyişən hərəkət",
+        "Mürəkkəb hərəkət",
+        "Bərabər-sürətli hərəkət",
+        "Nisbi hərəkət"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Əyrixətli trayektoriya üzrə hərəkət edən nöqtənin sürət vektoru necə yönəlir?",
+      "options": [
+        "Trayektoriyaya normal istiqamətdə",
+        "Trayektoriyanın qabarıq tərəfinə doğru",
+        "Trayektoriyaya toxunan istiqamətdə",
+        "Trayektoriyanın çökük tərəfinə doğru",
+        "İstənilən istiqamətdə"
+      ],
+      "answer": 2
+    },
+    {
+      "question": " Nöqtə kinematikasında hərəkətin verilmə üsulları:",
+      "options": [
+        "Ancaq təbii üsulla",
+        "Vektor və qrafiki üsullarla",
+        "Vektor, koordinat və təbii üsulla",
+        "Ancaq koordinat üsulu ilə",
+        "Ancaq vektor üsulu ilə"
+      ],
+      "answer": 2
+    },
+    {
+      "question": " Sürüşmə sürtünmə qüvvəsi bunların hansından aslıdır?",
+      "options": [
+        "Hərəkətverici qüvvədən",
+        "Normal reaksiyadan",
+        "Elastiki qüvvədən",
+        "Ətalət qüvvəsindən",
+        "Səthlərin toxunma sahəsindən"
+      ],
+      "answer": 1
+    },
+    {
+      "question": " Fırlanma cütlərində əvəzləyici R reaksiya qüvvəsi sürtünmə dairə¬sinə toxunan olarsa val necə hərəkət edər?",
+      "options": [
+        "Yellənər",
+        "Sükunatdə olar",
+        "Təcillə",
+        "Müntəzəm",
+        "Irəliləyər"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Sürüşmə sürtünməsi nədən asılı deyil?",
+      "options": [
+        "səthlərin materiallarından",
+        "səthlərə təsir edən normal qüvvədən",
+        "səthlərin ilkin kontakt müddətindən",
+        "səthlərin sahəsindən",
+        "yeyinləşən hərəkətdə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " İrəliləmə kinematik cütlərində cismə təsir edən əvəzləyici qüvvə sürtünmə konusunun doğuranı boyunca yönələrsə o hansı vəziyyətdə",
+      "options": [
+        "qeyri-müəyyən hərəkətdə",
+        "müntəzəm hərəkətdə",
+        "yavaşıyan hərəkətdə",
+        "yeyinləşən hərəkətdə",
+        "sükunətdə"
+      ],
+      "answer": 1
+    },
+    {
+      "question": " İrəliləmə kinematik cütlərində cismə təsir edən əvəzləyici qüvvə sürtünmə konusunun daxilindən keçərsə o hansı vəziyyətdə olar? (İlkin",
+      "options": [
+        "qeyri-müəyyən hərəkətdə",
+        "yeyinləşən hərəkətdə",
+        "yavaşıyan hərəkətdə;",
+        "sükunətdə",
+        "müntəzəm hərəkətdə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Mütləq bərk cismə tətbiq olunan qüvvəni öz təsir xətti boyunca cismin digər nöqtəsinə köçürdükdə nə baş verər?",
+      "options": [
+        "Cismə olan təsir dəyişər",
+        "Cisim fırlanar",
+        "Cisim irəliləmə hərəkəti edər",
+        "Cismə olan təsir dəyişməz",
+        "Cisim müvazinətdədirsə müvazinətini itirər"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Qüvvənin analitik verilməsi dedikdə nə nəzərdə tutulur?",
+      "options": [
+        "Qüvvənin vektor kimi təsvir olunması",
+        "Qüvvənin istiqamətinin tapılması",
+        "Qüvvənin momentinin hesablanması",
+        "Qüvvənin öz proyeksiyaları ilə ifadə olunması",
+        "Qüvvənin modulunun qiyməti"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Aşağıdakı halların hansında müstəvi qüvvələr sisteminin iki analitik müvazinət şərti olur?",
+      "options": [
+        "Qüvvələr bir əvəzləyiciyə gətirildikdə",
+        "Qüvvələr mail müstəvi üzərində yerləşdikdə",
+        "Qüvvələr ixtiyari surətdə yerləşdikdə",
+        "Qüvvələr bir-birinə paralel olduqda",
+        "Qüvvələr bir cütə gətirildikdə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Əgər cisim sükunətdədirsə ona təsir edən qüvvələr sistemi haqqında aşağıdakı müddəalardan hansı doğrudur?",
+      "options": [
+        "Bu qüvvələr sisteminin ancaq baş vektoru sıfra bərabərdir",
+        "Bu qüvvələr sistemi ixtiyaridir",
+        "Bu qüvvələr sisteminin ancaq baş momenti sıfra bərabərdir",
+        "Bu qüvvələr sisteminin baş vektoru onun baş momentinə bərabərdir",
+        "Bu qüvvələr sisteminin həm baş vektoru, həm də baş momenti sıfra bərabərdir"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Qüvvənin ox üzərindəki proyeksiyası nə vaxt sıfra bərabər olar?",
+      "options": [
+        "Qüvvə oxla kəsişdikdə",
+        "Qüvvənin tətbiq nöqtəsi oxun üzərində olduqda",
+        "Qüvvə oxa paralel olaraq eyni tərəfə yönəldikdə",
+        "Qüvvə oxa perpendikulyar olduqda",
+        "Qüvvə oxa paralel olaraq əks tərəfə yönəldikdə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Üç qüvvənin müvazinətdə olması üçün aşağıdakı şərtlərdən hansı hökmən yerinə yetirilməlidir?",
+      "options": [
+        "Bu qüvvələr bir nöqtədə tətbiq olunmalıdır",
+        "Bu qüvvələrin modulları bərabər olmalıdır",
+        "Bu qüvvələrdən heç olmazsa biri sıfra bərabər olmalıdır",
+        "Bu qüvvələr bir-birinə paralel olmalıdır",
+        "Bu qüvvələr bir müstəvi üzərində yerləşməlidir"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Qüvvənin nöqtəyə nəzərən momentinin ölçü vahidi aşağıdakılardan hansı ola bilər?",
+      "options": [
+        "N/m",
+        "kq∙m",
+        "N",
+        "N/san",
+        "N∙m"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Qüvvənin ox üzərindəki proyeksiyası nə vaxt sıfra bərabər olar?",
+      "options": [
+        "Qüvvə oxla kəsişdikdə",
+        "Qüvənin tətbiq nöqtəsi oxun üzərində olduqda",
+        "Qüvvə oxa paralel olaraq eyni tərəfə yönəldikdə",
+        "Qüvvə oxa paralel olaraq əks tərəfə yönəldikdə",
+        "Qüvvə oxa perpendikulyar olduqda"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " İxtiyarı qüvvələr sisteminin müvazinətdə olması üçün hansı şərt ödənməlidir?",
+      "options": [
+        "Baş vektor sifra bərabər olmalıdır",
+        "Baş moment müəyyən qiymət almalıdır",
+        "Baş moment sıfra bərabər olmalıdır",
+        "Baş vektor və baş moment sıfra bərəbər olmalıdır",
+        "Baş vektor müəyyən qiymət almalıdır"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " İki kəsişən qüvvənin əvəzləyicisinin modulu hansı teoremə görə təyin olunur?",
+      "options": [
+        "Sinuslar teoreminə görə",
+        "Üç qüvvə haqqında teoremə görə",
+        "Varinyon teoreminə görə",
+        "Kosinuslar teoreminə görə",
+        "Pifaqor teoreminə görə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": " Bircinsli üfüqi AB tirinin ağırlığı P-yə bərabərdir. P=120 N olarsa, A dayağının reaksiya qüvvəsinin şaquli toplananını tapın.",
+      "options": [
+        "0",
+        "60 N",
+        "240 N",
+        "120 N",
+        "80 N"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Qüvvənin oxa nəzərən momenti nə vaxt sıfra bərabər olmaz?",
+      "options": [
+        "Qüvvə oxa paralel olduqda",
+        "Qüvvənin təsir xətti oxla kəsişdikdə",
+        "Heç vaxt",
+        "Qüvvə oxla çarpaz olduqda",
+        "Qüvvə oxla bir müstəvi üzərində yerləşdikdə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Qüvvənin oxa nəzərən momentinin sıfra bərabər olmasının ümumi halı aşağıdakılardan hansıdır?",
+      "options": [
+        "Qüvvə ilə ox perpendikulyar müstəvilər üzərində yerləşərsə",
+        "Qüvvə ilə ox kəsişən müstəvilər üzərində yerləşərsə",
+        "Qüvvə və ox çarpaz olduqda",
+        "Qüvvə ilə ox bir müstəvi üzərində yerləşərsə",
+        "Qüvvə ilə ox perpendikulyar müstəvilər üzərində yerləşərsə"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Bir nöqtədə tətbiq olunmuş iki qüvvə üçün aşağıdakı müddəalardan hansı doğrudur?",
+      "options": [
+        "Bu qüvvələr bir cütə gətirilə bilər",
+        "Bu qüvvələr iki çarpaz qüvvəyə gətirilə bilər",
+        "Bu qüvvələrin əvəzləyicisinin modulu onların modullarının cəminə bərabər olar",
+        "Bu qüvvələr iki paralel qüvvəyə gətirilə bilər",
+        "Bu qüvvələr bir əvəzləyici qüvvəyə gətirilə bilər"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Reaksiya qüvvəsinin yönəldiyi istiqamət:",
+      "options": [
+        "Cismin yerdəyişmə ala biləcəyi istiqamətlə eyni tərəfə",
+        "Cismin yerdəyişmə ala bilməcəyi istiqamətə paralel",
+        "Cismin yerdəyişmə ala biləcəyi istiqamətdə əks tərəfə",
+        "Cismin yerdəyişmə ala bilməyəcəyi istiqamətlə eyni tərəfə",
+        "Cismin yerdəyişmə ala bilməyəcəyi istiqamətdə əks tərəfə"
+      ],
+      "answer": 4
+    },
+    {
+      "question": " Qüvvənin cisimə təsiri hansı elementlərlə təyin olunur?",
+      "options": [
+        "Təsir xətti",
+        "İstiqaməti",
+        "Əddədi qiyməti, istiqaməti,tətbiq nöqtəsi",
+        "Tətbiq nöqtəsi",
+        "Modulu"
+      ],
+      "answer": 2
+    },
+    {
+      "question": " Bir nöqtədə tətbiq olunmuş qüvvələr sisteminin həndəsi müvazinət şərti:",
+      "options": [
+        "Bir neçə qüvvənin həndəsi cəmi və ya baş vektoru bu qüvvələr üzərində qurulmuş qüvvələr çoxbucaqlısının qapayıcısı ilə ifadə olunur",
+        "",
+        "Eyni müstəvi üzərində yerləşən, paralel olmayan üç qüvvə müvazinətdədirsə, onların təsir xətləri bir nöqtədə kəsişir",
+        "",
+        ""
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Bir nöqtədə tətbiq olunmuş qüvvələr sisteminin əvəzləyicisini hansı üsulla tapırlar?",
+      "options": [
+        "Momentlər üsulu",
+        "Vurma üsulu",
+        "Ritter üsulu",
+        "Paraleloqram və ya çoxbucaqlı üsulu",
+        "Yerdəyişmə üsulu"
+      ],
+      "answer": 3
+    }
+  ]
+}
