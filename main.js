@@ -8,13 +8,15 @@ const answ = [];
 let title = "";
 let quiz = [];
 let x = 0;
+const maxQuestions = 10;
 
-fetch('data/quiz.json')
+
+fetch('data/felsefe.json')
     .then(resp => resp.json())
     .then(json => {
-        title = json.title
-        quiz = json.quiz
-        h2.innerHTML = title
+        title = json.title;
+        quiz = json.quiz.slice(0, maxQuestions);
+        h2.innerHTML = title;
 })
 
 btn1.onclick = nextQuestion;
@@ -22,7 +24,7 @@ btn2.onclick=backQuestion;
 btn3.onclick = ()=>location.reload();
 
 function nextQuestion() {
-    if ( x < quiz.length ) {
+    if ( x < maxQuestions ) {
         h1.innerHTML = `Question: ${x + 1}`
         h2.innerHTML = quiz[x].question
         ul.innerHTML = quiz[x].options.reduce( (code, o, i) => code += `<li><input onclick="saveAnsw(${x},${i})" name="a" type="radio" ${answ[x] === i ? ' checked' : ''} >${o}</li>` , '' );
