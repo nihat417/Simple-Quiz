@@ -1,18 +1,9 @@
-const h1 = document.querySelector("h1");
-const h2 = document.querySelector("h2");
-const ul = document.querySelector("ul");
-const btn1 = document.getElementById("btnNext");
-const btn2 = document.getElementById("backBtn");
-const btn3 = document.getElementById("refreshBtn");
-const btnContainer = document.getElementById("btnContainer");
-const showAnswersBtn = document.getElementById("showAnswersBtn");
-const answ = [];
-const userAnswers = [];
-let title = "";
-let quiz = [];
-let shuffledQuiz = [];
-let currentQuizIndex = 0;
-const maxQuestions = 50;
+const h1 = document.querySelector("h1"),h2 = document.querySelector("h2"),
+ul = document.querySelector("ul"),btn1 = document.getElementById("btnNext"),
+btn2 = document.getElementById("backBtn"),btn3 = document.getElementById("refreshBtn"),
+btnContainer = document.getElementById("btnContainer"),showAnswersBtn = document.getElementById("showAnswersBtn"),
+answ = [],userAnswers = [],maxQuestions = 50;
+let title = "",quiz = [],shuffledQuiz = [],currentQuizIndex = 0;
 
 
 
@@ -21,14 +12,15 @@ btn2.onclick = backQuestion;
 btn3.onclick = () => location.reload();
 document.getElementById("showAnswersBtn").onclick = showAnswers;
 const quizzes = [
-    { title: 'Test 1', file: 'data/felsefe.json' },
-    { title: 'Test 2', file: 'data/quiz.json' },
-    { title: 'Test 3', file: 'data/texnkmex.json'}
+    { title: 'Felsefe', file: 'data/felsefe.json' },
+    { title: 'Parca', file: 'data/quiz.json' },
+    { title: 'texnkmex}', file: 'data/texnkmex.json'},
+    { title: 'Iqtsadyat', file: 'data/iqtsadyat.json'}
 ];
 
 quizzes.forEach((quiz, index) => {
     const btnStart = document.createElement("button");
-    btnStart.className = "newbtn1";
+    btnStart.className = "btn btn-warning mb-2"; 
     btnStart.textContent = `Start ${quiz.title}`;
     btnStart.onclick = () => loadAndStartQuiz(index);
     btnContainer.appendChild(btnStart);
@@ -40,9 +32,8 @@ function loadAndStartQuiz(quizIndex) {
     currentQuizIndex = quizIndex;
     fetch(quizzes[quizIndex].file)
         .then(resp => {
-            if (!resp.ok) {
+            if (!resp.ok)
                 throw new Error(`Failed to load quiz: ${resp.statusText}`);
-            }
             return resp.json();
         })
         .then(json => {
@@ -63,6 +54,7 @@ function loadAndStartQuiz(quizIndex) {
 
 function startQuiz() {
     clearResults();
+    ul.style.display = 'inline'
     btn1.style.display = 'inline';
     showAnswersBtn.style.display = 'none';
     btn2.style.display = 'none';
@@ -70,9 +62,8 @@ function startQuiz() {
     btn1.innerHTML = "Start";
     btn1.style.background = "#464D77";
     currentQuizIndex = 0;
-
     btnContainer.style.display = 'none';
-
+    btnContainer.classList.remove('d-flex', 'flex-column');
     nextQuestion();
 }
 
@@ -80,27 +71,24 @@ function startQuiz() {
 
 function nextQuestion() {
     if (currentQuizIndex < maxQuestions) {
-        if (currentQuizIndex > 0) {
+        if (currentQuizIndex > 0)
             btn2.style.display = 'inline';
-        }
-
-        h1.innerHTML = `Question: ${currentQuizIndex + 1}`;
-        h2.innerHTML = shuffledQuiz[currentQuizIndex].question;
+        h1.innerHTML = `${title}`;
+        h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
         ul.innerHTML = shuffledQuiz[currentQuizIndex].options.reduce((code, o, i) =>
             code += `<li><input onclick="saveAnsw(${currentQuizIndex},${i})" name="a" type="radio" ${answ[currentQuizIndex] === i ? ' checked' : ''} >${o}</li>`, '');
         btn1.innerHTML = currentQuizIndex < maxQuestions - 1 ? "Next" : "Submit";
         btn1.style.background = btn1.innerHTML !== "Next" ? "red" : "#464D77";
         currentQuizIndex++;
-    } else {
+    } else
         showResults();
-    }
 }
 
 function backQuestion() {
     if (currentQuizIndex > 1) {
         currentQuizIndex--;
-        h1.innerHTML = `Question: ${currentQuizIndex}`;
-        h2.innerHTML = shuffledQuiz[currentQuizIndex - 1].question;
+        h1.innerHTML = `${title}`;
+        h2.innerHTML = `${currentQuizIndex}` + shuffledQuiz[currentQuizIndex - 1].question;
         ul.innerHTML = shuffledQuiz[currentQuizIndex - 1].options.reduce((code, o, i) =>
             code += `<li><input onclick="saveAnsw(${currentQuizIndex - 1},${i})" name="a" type="radio" ${answ[currentQuizIndex - 1] === i ? ' checked' : ''}>${o}</li>`, '');
         btn1.innerHTML = "Next";
@@ -127,9 +115,9 @@ function showResults() {
     h1.innerHTML = `Quiz: ${title}`;
     h2.innerHTML = 'Results';
     ul.innerHTML = `
-        <li>True:${correctAnswr} </li>
-        <li>False:${falseAnswr} </li>
-        <li>Empty:${emptyAnswer} </li>
+        <li style = "color:green;">True:${correctAnswr} </li>
+        <li style = "color:red;">False:${falseAnswr} </li>
+        <li style = "color:yellow;">Empty:${emptyAnswer} </li>
     `;
     btn1.style.display = "none";
     btn2.style.display = "none";
