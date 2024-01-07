@@ -1,35 +1,45 @@
-const h1 = document.querySelector("h1"),h2 = document.querySelector("h2"),
-ul = document.querySelector("ul"),btn1 = document.getElementById("btnNext"),
-btn2 = document.getElementById("backBtn"),btn3 = document.getElementById("refreshBtn"),
-btnContainer = document.getElementById("btnContainer"),showAnswersBtn = document.getElementById("showAnswersBtn"),
-answ = [],userAnswers = [],maxQuestions = 50;
-let title = "",quiz = [],shuffledQuiz = [],currentQuizIndex = 0;
-
-
+const h1 = document.querySelector("h1"),
+    h2 = document.getElementById("QuestionText"),
+    ul = document.querySelector("ul"),
+    btn1 = document.getElementById("btnNext"),
+    btn2 = document.getElementById("backBtn"),
+    btn3 = document.getElementById("refreshBtn"),
+    btnContainer = document.getElementById("btnContainer"),
+    showAnswersBtn = document.getElementById("showAnswersBtn"),
+    finishEx = document.getElementById("finishExam"),
+    answ = [],
+    userAnswers = [];
+let title = "",
+    quiz = [],
+    shuffledQuiz = [],
+    currentQuizIndex = 0,
+    maxQuestions = 0;
 
 btn1.onclick = nextQuestion;
 btn2.onclick = backQuestion;
+finishEx.onclick = finishExam;
 btn3.onclick = () => location.reload();
-document.getElementById("showAnswersBtn").onclick = showAnswers;
+showAnswersBtn.onclick = showAnswers;
+
 const quizzes = [
     { title: 'Felsefe', file: 'data/felsefe.json' },
     { title: 'Parca', file: 'data/quiz.json' },
-    { title: 'texnkmex}', file: 'data/texnkmex.json'},
-    { title: 'Iqtsadyat', file: 'data/iqtsadyat.json'}
+    { title: 'texnkmex}', file: 'data/texnkmex.json' },
+    { title: 'Iqtsadyat', file: 'data/iqtsadyat.json' }
 ];
 
 quizzes.forEach((quiz, index) => {
-    const btnStart = document.createElement("button");
-    btnStart.className = "btn btn-warning mb-2"; 
+    const btnStart = document.createElement("a");
+    btnStart.className = "btn btn-outline-primary";
     btnStart.textContent = `Start ${quiz.title}`;
-    btnStart.onclick = () => loadAndStartQuiz(index);
+    btnStart.onclick = () => startQuiz(index);
     btnContainer.appendChild(btnStart);
 });
 
-
-
-function loadAndStartQuiz(quizIndex) {
+function startQuiz(quizIndex) {
     currentQuizIndex = quizIndex;
+    maxQuestions = prompt(`Enter the number of questions for ${quizzes[quizIndex].title} (default: 50):`) || 50;
+
     fetch(quizzes[quizIndex].file)
         .then(resp => {
             if (!resp.ok)
@@ -41,7 +51,19 @@ function loadAndStartQuiz(quizIndex) {
             quiz = json.quiz;
             shuffledQuiz = shuffleArray([...quiz]);
             h2.innerHTML = title;
-            startQuiz();
+            clearResults();
+            ul.style.display = 'none';
+            finishEx.style.display = 'none';
+            btn1.style.display = 'inline';
+            showAnswersBtn.style.display = 'none';
+            btn2.style.display = 'none';
+            btn1.style.display = 'inline';
+            btn1.innerHTML = "Start";
+            btn1.style.background = "#464D77";
+            currentQuizIndex = 0;
+            btnContainer.style.display = 'none';
+            btnContainer.classList.remove('d-flex', 'flex-column');
+            startQuizWithQuestions();
         })
         .catch(error => {
             console.error(error);
@@ -49,25 +71,19 @@ function loadAndStartQuiz(quizIndex) {
         });
 }
 
-
-
-
-function startQuiz() {
-    clearResults();
-    ul.style.display = 'inline'
+function startQuizWithQuestions() {
+    ul.style.display = 'inline';
+    finishEx.style.display = 'inline';
     btn1.style.display = 'inline';
     showAnswersBtn.style.display = 'none';
     btn2.style.display = 'none';
     btn1.style.display = 'inline';
     btn1.innerHTML = "Start";
     btn1.style.background = "#464D77";
-    currentQuizIndex = 0;
     btnContainer.style.display = 'none';
     btnContainer.classList.remove('d-flex', 'flex-column');
     nextQuestion();
 }
-
-
 
 function nextQuestion() {
     if (currentQuizIndex < maxQuestions) {
@@ -78,7 +94,14 @@ function nextQuestion() {
         ul.innerHTML = shuffledQuiz[currentQuizIndex].options.reduce((code, o, i) =>
             code += `<li><input onclick="saveAnsw(${currentQuizIndex},${i})" name="a" type="radio" ${answ[currentQuizIndex] === i ? ' checked' : ''} >${o}</li>`, '');
         btn1.innerHTML = currentQuizIndex < maxQuestions - 1 ? "Next" : "Submit";
-        btn1.style.background = btn1.innerHTML !== "Next" ? "red" : "#464D77";
+        if (btn1.innerHTML !== "Next") {
+            btn1.classList.remove('btn-outline-primary');
+            btn1.classList.add('btn-outline-danger');
+            finishEx.style.display = 'none';
+        } else {
+            btn1.classList.remove('btn-outline-danger');
+            btn1.classList.add('btn-outline-primary');
+        }
         currentQuizIndex++;
     } else
         showResults();
@@ -92,10 +115,23 @@ function backQuestion() {
         ul.innerHTML = shuffledQuiz[currentQuizIndex - 1].options.reduce((code, o, i) =>
             code += `<li><input onclick="saveAnsw(${currentQuizIndex - 1},${i})" name="a" type="radio" ${answ[currentQuizIndex - 1] === i ? ' checked' : ''}>${o}</li>`, '');
         btn1.innerHTML = "Next";
-        btn1.style.background = "#464D77";
+        if (btn1.innerHTML !== "Next") {
+            btn1.classList.remove('btn-outline-primary');
+            btn1.classList.add('btn-outline-danger');
+            finishEx.style.display = 'none';
+        } else {
+            btn1.classList.remove('btn-outline-danger');
+            btn1.classList.add('btn-outline-primary');
+            finishEx.style.display = 'inline';
+        }
         btn2.innerHTML = "back";
         if (currentQuizIndex === 1) btn2.style.display = 'none';
     }
+}
+
+function finishExam() {
+    finishEx.style.display = 'none';
+    showResults();
 }
 
 function saveAnsw(q, i) {
