@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./app.css"/>
     <link rel="stylesheet" href="./app-dark.css">
+    <link rel="stylesheet" href="./mystyle.css">
     <title>Quiz</title>
 </head>
 <body>
@@ -19,10 +20,12 @@
             </div>
             <div class="card-body">
                 <ul class="list-group"></ul>
-                <a id="backBtn" class="btn btn-outline-primary" style="display: none;">Back</a>
-                <a id="btnNext" class="btn btn-outline-primary" style="display: none;">Start</a>
-                <a id="finishExam" class="btn btn-outline-danger" style="display: none;">Finish Exam</a>
-                <a id="refreshBtn" class="btn btn-outline-primary" style="display: none;">Refresh</a>
+                <div class="buttons-container">
+                    <a id="backBtn" class="btn btn-outline-primary" style="display: none;">Back</a>
+                    <a id="btnNext" class="btn btn-outline-primary" style="display: none;">Start</a>
+                    <a id="finishExam" class="btn btn-outline-danger" style="display: none;">Finish Exam</a>
+                    <a id="refreshBtn" class="btn btn-outline-primary" style="display: none;">Refresh</a>
+                </div>
                 <div id="btnContainer" class="buttons"></div>
                 <a id="showAnswersBtn"  class="btn btn-outline-warning" style="display: none;">Show Answers</a>
             </div>

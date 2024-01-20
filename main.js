@@ -54,7 +54,6 @@ function startQuiz(quizIndex) {
             clearResults();
             ul.style.display = 'none';
             finishEx.style.display = 'none';
-            btn1.style.display = 'inline';
             showAnswersBtn.style.display = 'none';
             btn2.style.display = 'none';
             btn1.style.display = 'inline';
