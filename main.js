@@ -81,39 +81,64 @@ function startQuizWithQuestions() {
     btn1.style.background = "#464D77";
     btnContainer.style.display = 'none';
     btnContainer.classList.remove('d-flex', 'flex-column');
+    loadCurrentAnswer();
     nextQuestion();
+}
+
+function createOptionElement(index) {
+    const optionElement = document.createElement("li");
+    const inputElement = document.createElement("input");
+
+    inputElement.type = "radio";
+    inputElement.name = "a";
+    inputElement.checked = answ[currentQuizIndex] === index;
+
+    inputElement.onclick = function() {
+        saveAnsw(currentQuizIndex, index);
+    };
+
+    optionElement.appendChild(inputElement);
+    optionElement.innerHTML += shuffledQuiz[currentQuizIndex].options[index];
+
+    return optionElement;
 }
 
 function nextQuestion() {
     if (currentQuizIndex < maxQuestions) {
         if (currentQuizIndex > 0)
             btn2.style.display = 'inline';
+        saveCurrentAnswer();
         h1.innerHTML = `${title}`;
         h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
-        ul.innerHTML = shuffledQuiz[currentQuizIndex].options.reduce((code, o, i) =>
-            code += `<li><input onclick="saveAnsw(${currentQuizIndex},${i})" name="a" type="radio" ${answ[currentQuizIndex] === i ? ' checked' : ''} >${o}</li>`, '');
+        ul.innerHTML = "";
+        for (let i = 0; i < shuffledQuiz[currentQuizIndex].options.length; i++) 
+            ul.appendChild(createOptionElement(i));
         btn1.innerHTML = currentQuizIndex < maxQuestions - 1 ? "Next" : "Submit";
         if (btn1.innerHTML !== "Next") {
             btn1.classList.remove('btn-outline-primary');
             btn1.classList.add('btn-outline-danger');
             finishEx.style.display = 'none';
-        } else {
+        } 
+        else {
             btn1.classList.remove('btn-outline-danger');
             btn1.classList.add('btn-outline-primary');
         }
         currentQuizIndex++;
-    } else
+        loadCurrentAnswer();
+    } else 
         showResults();
 }
 
 function backQuestion() {
-    if (currentQuizIndex > 1) {
+    if (currentQuizIndex > 0) {
+        saveCurrentAnswer();
         currentQuizIndex--;
         h1.innerHTML = `${title}`;
-        h2.innerHTML = `${currentQuizIndex}` + shuffledQuiz[currentQuizIndex - 1].question;
-        ul.innerHTML = shuffledQuiz[currentQuizIndex - 1].options.reduce((code, o, i) =>
-            code += `<li><input onclick="saveAnsw(${currentQuizIndex - 1},${i})" name="a" type="radio" ${answ[currentQuizIndex - 1] === i ? ' checked' : ''}>${o}</li>`, '');
-        btn1.innerHTML = "Next";
+        h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
+        ul.innerHTML = "";
+        for (let i = 0; i < shuffledQuiz[currentQuizIndex].options.length; i++) 
+            ul.appendChild(createOptionElement(i));
+        btn1.innerHTML = currentQuizIndex < maxQuestions - 1 ? "Next" : "Submit";
         if (btn1.innerHTML !== "Next") {
             btn1.classList.remove('btn-outline-primary');
             btn1.classList.add('btn-outline-danger');
@@ -124,9 +149,12 @@ function backQuestion() {
             finishEx.style.display = 'inline';
         }
         btn2.innerHTML = "back";
-        if (currentQuizIndex === 1) btn2.style.display = 'none';
+        if (currentQuizIndex === 0) btn2.style.display = 'none';
+        loadCurrentAnswer();
     }
 }
+
+
 
 function finishExam() {
     finishEx.style.display = 'none';
@@ -137,15 +165,42 @@ function saveAnsw(q, i) {
     userAnswers[q] = i;
 }
 
+function saveCurrentAnswer() {
+    const selectedOption = document.querySelector(`input[name="a"]:checked`);
+    if (selectedOption) {
+        const selectedIndex = Array.from(ul.children).indexOf(selectedOption.parentElement);
+        saveAnsw(currentQuizIndex-1, selectedIndex);
+    }
+}
+
+function loadCurrentAnswer() {
+    const savedAnswerIndex = userAnswers[currentQuizIndex - 1];
+    if (savedAnswerIndex !== undefined) {
+        const optionInput = ul.children[savedAnswerIndex].querySelector('input');
+        if (optionInput) {
+            optionInput.checked = true;
+        }
+        else {
+            const selectedOption = document.querySelector(`input[name="a"]:checked`);
+            if (selectedOption) {
+                selectedOption.checked = false;
+            }
+        }
+    }
+}
+
+
 function showResults() {
+    saveCurrentAnswer();
     clearResults();
     let correctAnswr = 0;
     let falseAnswr = 0;
     let emptyAnswer = 0;
 
-    for (let i = 0; i < userAnswers.length; i++) {
+    for (let i = 0; i < maxQuestions; i++) {
         userAnswers[i] != undefined ? (userAnswers[i] == shuffledQuiz[i].answer ? correctAnswr++ : falseAnswr++) : emptyAnswer++;
     }
+    
 
     h1.innerHTML = `Quiz: ${title}`;
     h2.innerHTML = 'Results';
@@ -171,12 +226,14 @@ function showAnswers() {
     h2.innerHTML = 'Correct and Incorrect Answers';
     ul.innerHTML = userAnswers.map((userAnswer, index) => {
         const question = shuffledQuiz[index];
-        const isCorrect = userAnswer != undefined && userAnswer == question.answer;
-        return `<li>${question.question} - ${isCorrect ? 'Correct' : 'Incorrect'}</li>`;
+        const isCorrect = userAnswer !== undefined && userAnswer === question.answer;
+        const colorStyle = isCorrect ? 'color:green;' : 'color:red;';
+        return `<li>${question.question} - <span style="${colorStyle}">${isCorrect ? 'Correct' : 'Incorrect'}</span></li>`;
     }).join('');
     showAnswersBtn.style.display = 'none';
     btn3.style.display = 'inline';
 }
+
 
 function clearResults() {
     h1.innerHTML = "Quiz";
