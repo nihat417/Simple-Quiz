@@ -154,8 +154,6 @@ function backQuestion() {
     }
 }
 
-
-
 function finishExam() {
     finishEx.style.display = 'none';
     showResults();
@@ -188,7 +186,6 @@ function loadCurrentAnswer() {
         }
     }
 }
-
 
 function showResults() {
     saveCurrentAnswer();
@@ -228,11 +225,23 @@ function showAnswers() {
         const question = shuffledQuiz[index];
         const isCorrect = userAnswer !== undefined && userAnswer === question.answer;
         const colorStyle = isCorrect ? 'color:green;' : 'color:red;';
-        return `<li>${question.question} - <span style="${colorStyle}">${isCorrect ? 'Correct' : 'Incorrect'}</span></li>`;
+        const resultText = isCorrect ? 'Correct' : `Incorrect (Correct: ${question.options[question.answer]})`;
+        const unansweredText = userAnswer === undefined ? ` (Unanswered - Correct: ${question.options[question.answer]})` : '';
+        return `<li>${question.question} - <span style="${colorStyle}">${resultText}${unansweredText}</span></li>`;
     }).join('');
+
+    for (let i = 0; i < maxQuestions; i++) {
+        if (userAnswers[i] === undefined) {
+            const unansweredQuestion = shuffledQuiz[i];
+            const correctAnswerText = ` (Correct: ${unansweredQuestion.options[unansweredQuestion.answer]})`;
+            ul.innerHTML += `<li>${unansweredQuestion.question} - <span style="color:yellow;">Unanswered${correctAnswerText}</span></li>`;
+        }
+    }
+
     showAnswersBtn.style.display = 'none';
     btn3.style.display = 'inline';
 }
+
 
 
 function clearResults() {
