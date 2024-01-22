@@ -9,11 +9,13 @@ const h1 = document.querySelector("h1"),
     finishEx = document.getElementById("finishExam"),
     answ = [],
     userAnswers = [];
+
 let title = "",
     quiz = [],
     shuffledQuiz = [],
     currentQuizIndex = 0,
-    maxQuestions = 0;
+    maxQuestions = 0,
+    flag = true;
 
 btn1.onclick = nextQuestion;
 btn2.onclick = backQuestion;
@@ -105,9 +107,8 @@ function createOptionElement(index) {
 
 function nextQuestion() {
     saveCurrentAnswer();
-
-    if (currentQuizIndex < maxQuestions - 1) {
-        currentQuizIndex++;
+    flag == true ? currentQuizIndex + 1 : currentQuizIndex++; 
+    if (currentQuizIndex < maxQuestions) {
         loadCurrentQuestion();
     } else {
         showResults();
@@ -126,7 +127,7 @@ function loadCurrentQuestion() {
     h1.innerHTML = `${title}`;
     h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
     ul.innerHTML = "";
-    
+    flag = false;
     for (let i = 0; i < shuffledQuiz[currentQuizIndex].options.length; i++) {
         ul.appendChild(createOptionElement(i));
     }
