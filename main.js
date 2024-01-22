@@ -105,55 +105,50 @@ function createOptionElement(index) {
 
 function nextQuestion() {
     saveCurrentAnswer();
+
     if (currentQuizIndex < maxQuestions - 1) {
         currentQuizIndex++;
-        h1.innerHTML = `${title}`;
-        h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
-        ul.innerHTML = "";
-        for (let i = 0; i < shuffledQuiz[currentQuizIndex].options.length; i++) 
-            ul.appendChild(createOptionElement(i));
-        btn1.innerHTML = currentQuizIndex < maxQuestions - 1 ? "Next" : "Submit";
-        if (btn1.innerHTML !== "Next") {
-            btn1.classList.remove('btn-outline-primary');
-            btn1.classList.add('btn-outline-danger');
-            finishEx.style.display = 'none';
-        } 
-        else {
-            btn1.classList.remove('btn-outline-danger');
-            btn1.classList.add('btn-outline-primary');
-        }
-        btn2.style.display = 'inline';
-        loadCurrentAnswer();
+        loadCurrentQuestion();
     } else {
         showResults();
     }
 }
 
-
 function backQuestion() {
     if (currentQuizIndex > 0) {
         saveCurrentAnswer();
         currentQuizIndex--;
-        h1.innerHTML = `${title}`;
-        h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
-        ul.innerHTML = "";
-        for (let i = 0; i < shuffledQuiz[currentQuizIndex].options.length; i++) 
-            ul.appendChild(createOptionElement(i));
-        btn1.innerHTML = currentQuizIndex < maxQuestions - 1 ? "Next" : "Submit";
-        if (btn1.innerHTML !== "Next") {
-            btn1.classList.remove('btn-outline-primary');
-            btn1.classList.add('btn-outline-danger');
-            finishEx.style.display = 'none';
-        } else {
-            btn1.classList.remove('btn-outline-danger');
-            btn1.classList.add('btn-outline-primary');
-            finishEx.style.display = 'inline';
-        }
-        btn2.innerHTML = "back";
-        if (currentQuizIndex === 0) btn2.style.display = 'none';
-        loadCurrentAnswer();
+        loadCurrentQuestion();
     }
 }
+
+function loadCurrentQuestion() {
+    h1.innerHTML = `${title}`;
+    h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
+    ul.innerHTML = "";
+    
+    for (let i = 0; i < shuffledQuiz[currentQuizIndex].options.length; i++) {
+        ul.appendChild(createOptionElement(i));
+    }
+
+    btn1.innerHTML = currentQuizIndex < maxQuestions - 1 ? "Next" : "Submit";
+    
+    if (btn1.innerHTML !== "Next") {
+        btn1.classList.remove('btn-outline-primary');
+        btn1.classList.add('btn-outline-danger');
+        finishEx.style.display = 'none';
+    } else {
+        btn1.classList.remove('btn-outline-danger');
+        btn1.classList.add('btn-outline-primary');
+        finishEx.style.display = 'inline';
+    }
+
+    btn2.innerHTML = "Back";
+    btn2.style.display = currentQuizIndex === 0 ? 'none' : 'inline';
+    
+    loadCurrentAnswer();
+}
+
 
 function finishExam() {
     finishEx.style.display = 'none';
@@ -168,18 +163,17 @@ function saveCurrentAnswer() {
     const selectedOption = document.querySelector(`input[name="a"]:checked`);
     if (selectedOption) {
         const selectedIndex = Array.from(ul.children).indexOf(selectedOption.parentElement);
-        saveAnsw(currentQuizIndex-1, selectedIndex);
+        saveAnsw(currentQuizIndex, selectedIndex);
     }
 }
 
 function loadCurrentAnswer() {
-    const savedAnswerIndex = userAnswers[currentQuizIndex - 1];
+    const savedAnswerIndex = userAnswers[currentQuizIndex];
     if (savedAnswerIndex !== undefined) {
         const optionInput = ul.children[savedAnswerIndex].querySelector('input');
         if (optionInput) {
             optionInput.checked = true;
-        }
-        else {
+        } else {
             const selectedOption = document.querySelector(`input[name="a"]:checked`);
             if (selectedOption) {
                 selectedOption.checked = false;
