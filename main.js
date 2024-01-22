@@ -104,10 +104,9 @@ function createOptionElement(index) {
 }
 
 function nextQuestion() {
-    if (currentQuizIndex < maxQuestions) {
-        if (currentQuizIndex > 0)
-            btn2.style.display = 'inline';
-        saveCurrentAnswer();
+    saveCurrentAnswer();
+    if (currentQuizIndex < maxQuestions - 1) {
+        currentQuizIndex++;
         h1.innerHTML = `${title}`;
         h2.innerHTML = `${currentQuizIndex + 1}` + shuffledQuiz[currentQuizIndex].question;
         ul.innerHTML = "";
@@ -123,11 +122,13 @@ function nextQuestion() {
             btn1.classList.remove('btn-outline-danger');
             btn1.classList.add('btn-outline-primary');
         }
-        currentQuizIndex++;
+        btn2.style.display = 'inline';
         loadCurrentAnswer();
-    } else 
+    } else {
         showResults();
+    }
 }
+
 
 function backQuestion() {
     if (currentQuizIndex > 0) {
